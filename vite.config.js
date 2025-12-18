@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/rectjs_practice/'   // 👈 EXACT repo name
-})
+  base: "/contact_app/", // 👈 must match repo name
+  plugins: [react()]
+});
